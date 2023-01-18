@@ -19,4 +19,5 @@ NEI %>%
                  x = "Year",
                  y = "PM2.5 emissions (tons)")
 dev.off()
-# Answer: All the four sources decreased in emissions from 1999 to 2008.
+
+# Answer: All the four sources have seen decreases in emissions from 1999 to 2008.
