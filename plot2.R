@@ -15,7 +15,7 @@ with(NEI_2, barplot(total_emissions,
                     col = "blue",
                     xlab = "Year",
                     ylab = "PM2.5 emissions (tons)"))
-title(main = "Total PM2.5 Emissions in Baltimore City, Maryland, 1999-2008")
+title(main = "Total PM2.5 Emissions in Baltimore City, Maryland, 1999–2008")
 dev.off()
 
 # Answer: Yes, the total emissions from PM2.5 decreased in the Baltimore City, Maryland, from 1999 to 2008.

@@ -27,7 +27,7 @@ with(NEI_1, barplot(total_emissions,
                     col = "red",
                     xlab = "Year",
                     ylab = "PM2.5 emissions (tons)"))
-title(main = "Total PM2.5 Emissions in the United States, 1999-2008")
+title(main = "Total PM2.5 Emissions in the United States, 1999–2008")
 dev.off()
 
 # Answer: Yes, the total emissions from PM2.5 decreased in the United States from 1999 to 2008.
