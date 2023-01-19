@@ -3,6 +3,9 @@
 # from motor vehicle sources in Los Angeles County, California (fips == "06037"),
 # Which city has seen greater changes over time in motor vehicle emissions?
 
+library(dplyr)
+library(ggplot2)
+
 png(file = "./plot6.png")
 NEI %>% 
     filter(type == "ON-ROAD" & (fips == "24510" | fips == "06037")) %>%
@@ -17,5 +20,3 @@ NEI %>%
                  x = "Year",
                  y = "PM2.5 emissions (tons)")
 dev.off()
-
-# Answer: Los Angeles

@@ -4,6 +4,7 @@
 # from 1999–2008 for Baltimore City? Which have seen increases in emissions from 
 # 1999–2008? Use the ggplot2 plotting system to make a plot answer this question.
 
+library(dplyr)
 library(ggplot2)
 
 png(file = "./plot3.png")
@@ -19,5 +20,3 @@ NEI %>%
                  x = "Year",
                  y = "PM2.5 emissions (tons)")
 dev.off()
-
-# Answer: All the four sources have seen decreases in emissions from 1999 to 2008.
